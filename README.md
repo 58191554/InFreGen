@@ -11,3 +11,6 @@ See our [WebPage]() for more details.
     - Detect objects in images based on text prompts
     - Generate segmentation masks for the detected objects
     - Process and crop images based on the detections
+- Resizer: `Resize.ipynb` resize the images, update the pic table
+- Packer: `Packing.ipynb` pack the images into a single image, update the pic table
+- Email Sender: get the pic package and send to the user with fabric pipeline
