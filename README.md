@@ -11,6 +11,13 @@ See our [WebPage]() for more details.
     - Detect objects in images based on text prompts
     - Generate segmentation masks for the detected objects
     - Process and crop images based on the detections
+    - Use the clip to get the image description
+    - Use SAM to generate the segmentation masks
 - Resizer: `Resize.ipynb` resize the images, update the pic table
 - Packer: `Packing.ipynb` pack the images into a single image, update the pic table
 - Email Sender: get the pic package and send to the user with fabric pipeline
+## Data Definition
+- Metadata: `MetaTableNotebook.ipynb` define the metadata of the images
+    - `pic`: store the image urls, descriptions, and other information
+    - `task`: store the task information
+
