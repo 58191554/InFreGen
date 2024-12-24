@@ -1,5 +1,5 @@
 # InFreGen
-A Group Work of ![Microsoft Fabric and AI Learning Hackathon](https://microsoftfabric.devpost.com/)
+A Group Work of [Microsoft Fabric and AI Learning Hackathon](https://microsoftfabric.devpost.com/)
 See our [WebPage]() for more details.
 
 ## Pipeline
@@ -29,3 +29,10 @@ to check the database, run `sqlite3 tasks.db`
 SELECT * FROM tasks;
 ```
 to end the database viewer, run `.exit`
+
+## Multi-process implementation of task processing
+- in the main.py, we initialize processes for each kind of task.
+- for each kind of task, we use a Queue to store the tasks to be processed.
+- each process will synchronously get the task from one queue
+- each process will asynchronously process the task and put the result into another queue
+- the database will be updated atomically by the task processor. (TODO validate the atomicity)
