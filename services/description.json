@@ -1,0 +1,82 @@
+[
+  {
+    "name": "MNIST",
+    "description": "A dataset of 70,000 grayscale images of handwritten digits (0-9) with a resolution of 28x28 pixels. It is widely used for benchmarking classification algorithms in deep learning.",
+    "type": "Handwritten digits",
+    "image_resolution": "28x28",
+    "size": "70,000 images",
+    "applications": ["Digit recognition", "Benchmarking algorithms"]
+  },
+  {
+    "name": "CIFAR-10",
+    "description": "A dataset containing 60,000 32x32 color images in 10 classes, with 6,000 images per class. It is a standard benchmark for evaluating image classification models.",
+    "type": "Natural images",
+    "image_resolution": "32x32",
+    "size": "60,000 images",
+    "applications": ["Image classification", "Feature extraction"]
+  },
+  {
+    "name": "ImageNet",
+    "description": "A large-scale dataset with over 14 million images labeled across 1,000 classes. It serves as the benchmark for image classification and object detection tasks.",
+    "type": "Natural images",
+    "image_resolution": "Varied",
+    "size": "14+ million images",
+    "applications": ["Image classification", "Object detection"]
+  },
+  {
+    "name": "COCO (Common Objects in Context)",
+    "description": "A dataset designed for object detection, segmentation, and image captioning tasks, containing over 330,000 images and 80 object categories.",
+    "type": "Natural images",
+    "image_resolution": "Varied",
+    "size": "330,000+ images",
+    "applications": ["Object detection", "Image segmentation", "Image captioning"]
+  },
+  {
+    "name": "Fashion-MNIST",
+    "description": "A dataset of 70,000 grayscale images of fashion items like shirts, shoes, and bags, designed as a drop-in replacement for MNIST with a similar resolution of 28x28 pixels.",
+    "type": "Fashion items",
+    "image_resolution": "28x28",
+    "size": "70,000 images",
+    "applications": ["Fashion classification", "Benchmarking algorithms"]
+  },
+  {
+    "name": "Pascal VOC",
+    "description": "A dataset with 20 object classes for object detection, classification, and segmentation tasks. It contains over 10,000 images annotated with bounding boxes and segmentation masks.",
+    "type": "Natural images",
+    "image_resolution": "Varied",
+    "size": "10,000+ images",
+    "applications": ["Object detection", "Semantic segmentation"]
+  },
+  {
+    "name": "CelebA",
+    "description": "A dataset of over 200,000 celebrity images annotated with 40 attributes such as gender, age, and hairstyle. It is widely used for attribute prediction and facial recognition tasks.",
+    "type": "Celebrity faces",
+    "image_resolution": "Varied",
+    "size": "200,000+ images",
+    "applications": ["Facial recognition", "Attribute prediction"]
+  },
+  {
+    "name": "LSUN (Large-scale Scene Understanding)",
+    "description": "A dataset containing millions of labeled images across 10 scene categories, such as bedrooms, churches, and classrooms, for scene recognition and generative tasks.",
+    "type": "Scene images",
+    "image_resolution": "Varied",
+    "size": "Millions of images",
+    "applications": ["Scene recognition", "Generative modeling"]
+  },
+  {
+    "name": "Oxford-IIIT Pet Dataset",
+    "description": "A dataset of 37 pet categories with around 200 images per class, including annotations for species, breed, and segmentation masks.",
+    "type": "Pet images",
+    "image_resolution": "Varied",
+    "size": "7,000+ images",
+    "applications": ["Species classification", "Image segmentation"]
+  },
+  {
+    "name": "Kaggle Cats vs Dogs",
+    "description": "A dataset containing 25,000 images of cats and dogs, used for binary image classification tasks.",
+    "type": "Animal images",
+    "image_resolution": "Varied",
+    "size": "25,000 images",
+    "applications": ["Binary classification", "Feature extraction"]
+  }
+]

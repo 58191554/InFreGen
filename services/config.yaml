@@ -1,0 +1,16 @@
+workers:
+  - name: gpt_worker
+    class: GPTWorker
+    num_workers: 1
+  - name: database_worker
+    class: DatabaseWorker
+    num_workers: 1
+  - name: input_worker
+    class: InputWorker
+    num_workers: 1
+  - name: sam_worker
+    class: SAMWorker
+    num_workers: 1
+
+data:
+  - path: "data/"

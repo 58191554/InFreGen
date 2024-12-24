@@ -21,3 +21,11 @@ See our [WebPage]() for more details.
     - `pic`: store the image urls, descriptions, and other information
     - `task`: store the task information
 
+- Database: `sqlite_db.py` define the database of the task and the pic
+    - `task`: store the task information
+    - `pic`: store the image urls, descriptions, and other information
+to check the database, run `sqlite3 tasks.db`
+```sql
+SELECT * FROM tasks;
+```
+to end the database viewer, run `.exit`
